@@ -30,7 +30,7 @@ title: Call for Papers
   </ul>
 
   <div class="text-center mt-8">
-    <a href="/contact" class="btn">Submit Abstract</a>
+    <a href="{{ site.baseurl }}/contact" class="btn">Submit Abstract</a>
   </div>
 
   <div class="flex justify-end mt-8">
