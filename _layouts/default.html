@@ -8,25 +8,41 @@
   {% seo %}
 </head>
 <body class="bg-gray-50 font-sans text-gray-800">
-  <header class="bg-green-700 text-white p-4 shadow-md relative">
+  <header class="bg-green-700 text-white p-4 shadow-md">
     <div class="container mx-auto flex justify-between items-center">
-      <a href="/" class="text-2xl font-bold flex items-center">
-        <span class="mr-2 text-3xl">🌿</span>{{ site.conference.name }}
+      <a href="{{ site.baseurl }}/" class="text-2xl font-bold flex items-center">
+        <img src="{{ site.baseurl }}/assets/images/living-veda-logo.png" alt="Logo" class="w-6 h-6 mr-2">
+        {{ site.conference.name }}
       </a>
-      <ul class="flex space-x-6">
-        <li><a href="{{ site.baseurl }}/" class="hover:underline">Home</a></li>
-        <li><a href="{{ site.baseurl }}/theme-note" class="hover:underline">Theme Note</a></li>
-        <li><a href="{{ site.baseurl }}/call-for-papers" class="hover:underline">Call for Papers</a></li>
-        <li><a href="{{ site.baseurl }}/organizers" class="hover:underline">Organizers</a></li>
-        <li><a href="{{ site.baseurl }}/contact" class="hover:underline">Contact</a></li>
-      </ul>
+      <div class="md:hidden">
+        <button id="menu-toggle" class="focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+      <nav id="nav-menu" class="hidden md:flex md:space-x-6">
+        <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
+          <li><a href="{{ site.baseurl }}/" class="hover:underline">Home</a></li>
+          <li><a href="{{ site.baseurl }}/theme-note" class="hover:underline">Theme Note</a></li>
+          <li><a href="{{ site.baseurl }}/call-for-papers" class="hover:underline">Call for Papers</a></li>
+          <li><a href="{{ site.baseurl }}/organizers" class="hover:underline">Organizers</a></li>
+          <li><a href="{{ site.baseurl }}/contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
   <main class="container mx-auto py-8 px-4">
     {{ content }}
   </main>
   <footer class="bg-gray-800 text-white p-4 text-center mt-12">
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.conference.name }} | <a href="{{ site.conference.website }}" class="underline">www.vedah.com</a> | <a href="mailto:{{ site.conference.email }}" class="underline">info@vedah.com</a></p>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.conference.name }}. Organized by {{ site.conference.organizers | join: ', ' }}. <a href="{{ site.conference.website }}" class="underline">www.vedah.com</a> | <a href="mailto:{{ site.conference.email }}" class="underline">{{ site.conference.email }}</a></p>
   </footer>
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+      const navMenu = document.getElementById('nav-menu');
+      navMenu.classList.toggle('hidden');
+    });
+  </script>
 </body>
 </html>

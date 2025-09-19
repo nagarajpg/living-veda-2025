@@ -1,8 +1,7 @@
 title: Living Veda 2025 | Mathura Edition
 description: International Conference on Application of Veda Knowledge in the light of Sri Aurobindo, 28-29 November 2025, Sanskriti University, Mathura, IN.
-url: "https://nagarajpg.github.io"
-baseurl: "/living-veda-2025"
-url: "https://nagarajpg.github.io"
+baseurl: ""
+url: "https://livingveda.info"
 theme: minima
 plugins:
   - jekyll-feed
@@ -23,12 +22,8 @@ conference:
   website: www.vedah.com
   email: info@vedah.com
   registration_link: https://forms.gle/YourGoogleFormLinkHere
-  sri_aurobindo_image: /assets/images/sri-aurobindo-portrait.jpg
-  logos:
-    - central_sanskrit: /assets/images/central-sanskrit-university-logo.png
-    - sanskriti: /assets/images/sanskriti-university-logo.png
-    - sri_aurobindo_society: /assets/images/sri-aurobindo-society-logo.png
-    - sakshi_trust: /assets/images/sakshi-trust-logo.png
+  sri_aurobindo_image: /assets/images/sri-aurobindo-circle.png
+  theme_note_bg_image: /assets/images/theme-temple-bg.jpg
   offices:
     - name: Conference Office - Mathura
       org: Sanskriti University
@@ -69,18 +64,16 @@ conference:
     deadline_abstract: 30th September 2025
     deadline_full: 30th October 2025
     topics:
-      - a. Vedic philosophy and spirituality
-      - b. Vedic rituals and practices in modern times
-      - c. Vedic insights for sustainable living
-      - d. Interdisciplinary approaches to Vedic studies
-      - e. Vedic heritage and cultural preservation
+      - Vedic philosophy and spirituality
+      - Vedic rituals and practices in modern times
+      - Vedic insights for sustainable living
+      - Interdisciplinary approaches to Vedic studies
+      - Vedic heritage and cultural preservation
     guidelines:
-      - Abstracts (250–300 words): 30th September 2025
-      - Selection and other key details will be communicated through email
-      - Full papers (for selected abstracts): 30th October 2025
-      - Papers must be original, unpublished, and not under review elsewhere
-      - Submissions should be in English/Hindi/Samskruta and aligned with the conference theme
+      - Abstracts (250–300 words)
+      - Papers in English/Hindi/Samskruta, original and unpublished
+      - Aligned with conference theme
     benefits:
-      - Present research to a diverse audience of scholars and practitioners
-      - Selected papers will be published in conference proceedings/journals
-      - Networking opportunities with leading experts in Vedic studies
+      - Present to diverse audience
+      - Selected papers published in proceedings/journal
+      - Networking with experts
