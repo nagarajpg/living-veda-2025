@@ -1,7 +1,7 @@
 title: Living Veda 2025 | Mathura Edition
 description: International Conference on Application of Veda Knowledge in the light of Sri Aurobindo, 28-29 November 2025, Sanskriti University, Mathura, IN.
-baseurl: "living-veda-2025/"
-url: "https://nagarajpg.github.io/"
+url: "https://nagarajpg.github.io"
+baseurl: "/living-veda-2025"
 theme: minima
 plugins:
   - jekyll-feed
