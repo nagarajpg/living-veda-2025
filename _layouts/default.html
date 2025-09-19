@@ -1,21 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
-<link rel="stylesheet" href="{{ site.baseurl }}/https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">  {% seo %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  {% seo %}
 </head>
-<header class="bg-green-700 text-white p-4 shadow-md">
-  <nav class="container mx-auto flex justify-between items-center">
-    <a href="{{ site.baseurl }}/" class="text-2xl font-bold flex items-center">
-      <img src="/assets/images/living-veda-logo.png" alt="Logo" class="w-6 h-6 mr-2">
-      {{ site.conference.name }}
-    </a>
-    <ul class="flex space-x-6">
-      <li><a href="{{ site.baseurl }}/" class="hover:underline">Home</a></li>
-      <li><a href="{{ site.baseurl }}/theme-note" class="hover:underline">Theme Note</a></li>
-      <li><a href="{{ site.baseurl }}/call-for-papers" class="hover:underline">Call for Papers</a></li>
-      <li><a href="{{ site.baseurl }}/organizers" class="hover:underline">Organizers</a></li>
-      <li><a href="{{ site.baseurl }}/contact" class="hover:underline">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+<body class="bg-gray-50 font-sans text-gray-800">
+  <header class="bg-green-700 text-white p-4 shadow-md relative">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="/" class="text-2xl font-bold flex items-center">
+        <span class="mr-2 text-3xl">🌿</span>{{ site.conference.name }}
+      </a>
+      <ul class="flex space-x-6">
+        <li><a href="{{ site.baseurl }}/" class="hover:underline">Home</a></li>
+        <li><a href="{{ site.baseurl }}/theme-note" class="hover:underline">Theme Note</a></li>
+        <li><a href="{{ site.baseurl }}/call-for-papers" class="hover:underline">Call for Papers</a></li>
+        <li><a href="{{ site.baseurl }}/organizers" class="hover:underline">Organizers</a></li>
+        <li><a href="{{ site.baseurl }}/contact" class="hover:underline">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  <main class="container mx-auto py-8 px-4">
+    {{ content }}
+  </main>
+  <footer class="bg-gray-800 text-white p-4 text-center mt-12">
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.conference.name }} | <a href="{{ site.conference.website }}" class="underline">www.vedah.com</a> | <a href="mailto:{{ site.conference.email }}" class="underline">info@vedah.com</a></p>
+  </footer>
+</body>
+</html>
