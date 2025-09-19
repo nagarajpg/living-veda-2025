@@ -30,12 +30,4 @@ title: Call for Papers
   </ul>
 
   <div class="text-center mt-8">
-    <a href="{{ site.baseurl }}/contact" class="btn">Submit Abstract</a>
-  </div>
-
-  <div class="flex justify-end mt-8">
-    {% if site.conference.sri_aurobindo_image %}
-    <img src="{{ site.conference.sri_aurobindo_image }}" alt="Sri Aurobindo Portrait" class="w-48 h-auto rounded-full">
-    {% endif %}
-  </div>
-</div>
+    <a href="{{ site.baseurl }}/contact
