@@ -1,0 +1,9 @@
+.btn {
+  @apply bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700 transition-colors inline-block;
+}
+
+.prose {
+  blockquote {
+    @apply my-4 bg-green-50 border-l-4 border-green-600 pl-4 py-4 italic;
+  }
+}

@@ -1,0 +1,85 @@
+title: Living Veda 2025 | Mathura Edition
+description: International Conference on Application of Veda Knowledge in the light of Sri Aurobindo, 28-29 November 2025, Sanskriti University, Mathura, IN.
+baseurl: ""
+url: "https://livingveda2025.vedah.com"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
+# Conference-specific settings
+conference:
+  name: Living Veda 2025 | Mathura Edition
+  full_name: International Conference on Application of Veda Knowledge in the light of Sri Aurobindo
+  dates: 28-29 November 2025
+  location: Sanskriti University, Mathura, IN
+  address: 28, K. M. Stone, Chennai - Delhi Hwy, Mathura, Semri - 281401, UP, IN
+  website: www.vedah.com
+  email: info@vedah.com
+  registration_link: https://forms.gle/YourGoogleFormLinkHere
+  sri_aurobindo_image: /assets/images/sri-aurobindo-portrait.jpg
+  logos:
+    - central_sanskrit: /assets/images/central-sanskrit-university-logo.png
+    - sanskriti: /assets/images/sanskriti-university-logo.png
+    - sri_aurobindo_society: /assets/images/sri-aurobindo-society-logo.png
+    - sakshi_trust: /assets/images/sakshi-trust-logo.png
+  offices:
+    - name: Conference Office - Mathura
+      org: Sanskriti University
+      address: 28, K. M. Stone, near Punjab National Bank, Chennai - Delhi Hwy, Mathura, Semri - 281401, Uttar Pradesh, India
+      phone: +91-931 2210 131
+      contact: Sri Vishnu Goyal
+    - name: Conference Office - Bengaluru
+      org: SAKSHI Trust
+      address: #19 'Atharva', 1st Cross, Siddappa Layout, Gubbalala, Bengaluru - 560061, Karnataka, India
+      phone: +91-900 8833 886
+      contact: Sri Bindumadhav J
+  organizers:
+    - Central Sanskrit University, New Delhi
+    - Sanskriti University, Mathura
+    - Sri Aurobindo Society, Puducherry
+    - SAKSHI Trust, Bengaluru
+  convenors:
+    - name: Sri Sachin Gupta
+      title: Chancellor, Sanskriti University, Mathura, Uttar Pradesh, India
+      image: /assets/images/convenors/sachin-gupta.jpg
+    - name: Sri Vishnu P Goyal
+      title: Chairman, Sri Aurobindo Society - UP and Uttarakhand, India
+      image: /assets/images/convenors/vishnu-goyal.jpg
+    - name: Sri Bindumadhav V Jahagirdar
+      title: Secretary, SAKSHI Trust, Karnataka, India
+      image: /assets/images/convenors/bindumadhav-jahagirdar.jpg
+  patrons:
+    - name: Dr. Ajit Sabnis
+      title: Chairman, Sri Aurobindo Society - Karnataka, India
+      image: /assets/images/patrons/ajit-sabnis.jpg
+    - name: Dr. Raghunath V Jahagirdar
+      title: Managing Trustee, SAKSHI Trust, Karnataka, India
+      image: /assets/images/patrons/raghunath-jahagirdar.jpg
+    - name: Makarand R Paranjape
+      title: Teaching Assistant at the University of Illinois, Illinois, USA
+      image: /assets/images/patrons/makarand-paranjape.jpg
+  call_for_papers:
+    deadline_abstract: 30th September 2025
+    deadline_full: 30th October 2025
+    topics:
+      - a. Vedic philosophy and spirituality
+      - b. Vedic rituals and practices in modern times
+      - c. Vedic insights for sustainable living
+      - d. Interdisciplinary approaches to Vedic studies
+      - e. Vedic heritage and cultural preservation
+    guidelines:
+      - Abstracts (250–300 words): 30th September 2025
+      - Selection and other key details will be communicated through email
+      - Full papers (for selected abstracts): 30th October 2025
+      - Papers must be original, unpublished, and not under review elsewhere
+      - Submissions should be in English/Hindi/Samskruta and aligned with the conference theme
+    benefits:
+      - Present research to a diverse audience of scholars and practitioners
+      - Selected papers will be published in conference proceedings/journals
+      - Networking opportunities with leading experts in Vedic studies
